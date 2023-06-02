@@ -22,16 +22,24 @@ body{
     display: block;
     background-color: rgb(82, 82, 82);
     justify-content: space-around;
-    padding-top: 12px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     
 }
 
 .titulo2{
-    margin-left: 100px;
+    margin-left: 50px;
     padding-top: 12px;
 }
 
 .customCard{
     height: 150px;
     object-fit: cover;
+}
+
+.experiencia{
+    background-color: rgb(205, 205, 205);
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
