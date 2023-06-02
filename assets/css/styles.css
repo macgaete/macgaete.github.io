@@ -29,6 +29,8 @@ body{
 
 .wordColor{
     color: aliceblue;
+    padding-left: 100px;
+    padding-top: 20px;
 
 }
 
@@ -42,6 +44,10 @@ body{
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.cards{
+    justify-content: flex-end;
 }
 
 .footer{
