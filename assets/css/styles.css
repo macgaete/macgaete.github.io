@@ -22,14 +22,14 @@ body{
     display: block;
     background-color: rgb(82, 82, 82);
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     
 }
 
-.titulo2{
-    margin-left: 50px;
-    padding-top: 12px;
+.wordColor{
+    color: aliceblue;
+
 }
 
 .customCard{
@@ -38,8 +38,15 @@ body{
 }
 
 .experiencia{
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(33, 33, 33);
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
