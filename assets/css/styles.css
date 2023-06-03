@@ -47,7 +47,13 @@ body{
 }
 
 .cards{
-    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+
+}
+
+.secondCards{
+    padding-top: 2rem;
 }
 
 .footer{
