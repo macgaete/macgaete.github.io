@@ -1,97 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="./assets/css/styles.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar container-fluid navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Maca Gaete</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="https://www.linkedin.com/in/macarenagaete/">Linkedin</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.behance.net/macarenagaete1">Behance</a>
-              </li>
-            </ul>
-          </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- cambio de color al navbar por Dominique -->
+    <nav class="navbar container-fluid navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Maca Gaete</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/macarenagaete/">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.behance.net/macarenagaete1">Behance</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <section class="portada text-light d-flex align-items-center">
-        <img class="foto1" src="img/macafoto.jpg" alt="foto">
-        <h1 class="titulo1"> Bienvenido a mi portafolio</h1>
+    <section class="portada text-light d-flex align-items-center">
+      <img class="foto1" src="img/macafoto.jpg" alt="foto" />
+      <h1 class="titulo1">Bienvenido a mi portafolio</h1>
+    </section>
 
+    <section class="educacion d-flex row">
+      <section class="title">
+        <h3 class="wordColor">Educación</h3>
       </section>
 
-      <section class="educacion d-flex row ">
-
-        <section class="title">
-          <h3 class="wordColor"> Educación </h3>
-        </section>
-
-        <section class="cards d-flex justify-content-around block">
-          <div class="card" style="width: 18rem;">
-            <img src="img/desafiolatam.jpg" class="card-img-top customCard" alt="logo">
-            <div class="card-body">
-              <p class="card-text">Desafío LATAM</p>
-            </div>
+      <section class="cards d-flex justify-content-around block">
+        <div class="card" style="width: 18rem">
+          <img src="img/desafiolatam.jpg" class="card-img-top customCard" alt="logo" />
+          <div class="card-body">
+            <p class="card-text">Desafío LATAM</p>
           </div>
-    
-          <div class="card" style="width: 18rem;">
-            <img src="img/Campus-RESB.jpg" class="card-img-top customCard" alt="logo">
-            <div class="card-body">
-              <p class="card-text">Universidad del Desarrollo</p>
-            </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="img/Campus-RESB.jpg" class="card-img-top customCard" alt="logo" />
+          <div class="card-body">
+            <p class="card-text">Universidad del Desarrollo</p>
           </div>
-
-        </section>
-
+        </div>
+      </section>
     </section>
 
     <section class="experiencia d-flex row">
       <h3 class="wordColor">Experiencia</h3>
-      <div class="card" style="width: 18rem;">
-        <img src="img/mcann.png" class="card-img-top customCard" alt="logo">
+      <div class="card" style="width: 18rem">
+        <img src="img/mcann.png" class="card-img-top customCard" alt="logo" />
         <div class="card-body">
           <p class="card-text">McCANN Agency</p>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="img/comunicante.jfif" class="card-img-top customCard" alt="logo">
+      <div class="card" style="width: 18rem">
+        <img src="img/comunicante.jfif" class="card-img-top customCard" alt="logo" />
         <div class="card-body">
           <p class="card-text">Comunicante Agency</p>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="img/dekel.jfif" class="card-img-top customCard" alt="logo">
+      <div class="card" style="width: 18rem">
+        <img src="img/dekel.jfif" class="card-img-top customCard" alt="logo" />
         <div class="card-body">
           <p class="card-text">Dekel Group</p>
         </div>
       </div>
-
     </section>
 
     <section>
-
       <h3 class="wordColor">Mis Trabajos</h3>
 
-      <section> 
-
+      <section>
         <div class="card mb-3">
-          <img src="img/foto vector 1.jpg" class="card-img-top customCard" alt="...">
+          <img src="img/foto vector 1.jpg" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Diseño UX/UI</h5>
             <p class="card-text">Trabajos de diseño para optimizar el atractivo y flujo para clientes.</p>
@@ -104,55 +111,56 @@
             <p class="card-text">Trabajo de publicidad, community mannager y redacción creativa.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
-          <img src="img/foto escritorio.jpg" class="card-img-bottom customCard" alt="...">
+          <img src="img/foto escritorio.jpg" class="card-img-bottom customCard" alt="..." />
         </div>
-       </section>
+      </section>
 
-
-       <section class="secondCards d-flex justify-content-around block">
-
-        <div class="card" style="width: 18rem;">
-          <img src="img/trabajo1.png" class="card-img-top customCard" alt="...">
+      <section class="secondCards d-flex justify-content-around block">
+        <div class="card" style="width: 18rem">
+          <img src="img/trabajo1.png" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">trabajo 1</h5>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="img/trabajo2.png" class="card-img-top customCard" alt="...">
+        <div class="card" style="width: 18rem">
+          <img src="img/trabajo2.png" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Trabajo 2</h5>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="img/trabajo3.png" class="card-img-top customCard" alt="...">
+        <div class="card" style="width: 18rem">
+          <img src="img/trabajo3.png" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Trabajo 3</h5>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="img/trabajo 4.png" class="card-img-top customCard" alt="...">
+        <div class="card" style="width: 18rem">
+          <img src="img/trabajo 4.png" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Trabajo 4</h5>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="img/trabajo 5.png" class="card-img-top customCard" alt="...">
+        <div class="card" style="width: 18rem">
+          <img src="img/trabajo 5.png" class="card-img-top customCard" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Trabajo 5</h5>
           </div>
         </div>
-
-       </section>
+      </section>
     </section>
 
     <footer class="footer text-light d-flex align-items-center">
       <h1>@Macgaeteg</h1>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
